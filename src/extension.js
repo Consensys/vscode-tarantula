@@ -22,22 +22,26 @@ function onActivate(context) {
      * @param {vscode.URI / event} e 
      */
     function processFsEvent(e){
-        t.processFsEvent(e).then(score => {
-            let humanReadable = JSON.stringify(score, null, ' ');
-            console.log(humanReadable);
+        t.processFsEvent(e)
+            .then(score => {
+                let humanReadable = JSON.stringify(score, null, ' ');
+                console.log(humanReadable);
 
-            // show notification
-            vscode.window.showInformationMessage("tarantula updated :)");
-            // show output channel haxx
-            if (!vscode.window.outputChannel) {
-                vscode.window.outputChannel = vscode.window.createOutputChannel('tarantula');
-            }
-            if (!vscode.window.outputChannel) return;
-            vscode.window.outputChannel.clear();
-            vscode.window.outputChannel.appendLine(humanReadable);
-            vscode.window.outputChannel.show();
-
-        });
+                // show notification
+                vscode.window.showInformationMessage("tarantula updated :)");
+                // show output channel haxx
+                if (!vscode.window.outputChannel) {
+                    vscode.window.outputChannel = vscode.window.createOutputChannel('tarantula');
+                }
+                if (!vscode.window.outputChannel) return;
+                vscode.window.outputChannel.clear();
+                vscode.window.outputChannel.appendLine(humanReadable);
+                vscode.window.outputChannel.show();
+            })
+            .catch(e => {
+                console.error(e);
+                vscode.window.showErrorMessage(e);
+            });
     }
 
     /* commands */
@@ -47,15 +51,17 @@ function onActivate(context) {
             processFsEvent(filepathOrDir || ".");
         })
     );
-        console.log(Object.values(TARGET_FILES))
+
     /** events */
     t.fileWatcher = vscode.workspace.createFileSystemWatcher(`**/{${Object.values(TARGET_FILES).join(",")}}`);
     t.fileWatcher.onDidChange((e) => processFsEvent(e)); 
 	t.fileWatcher.onDidCreate((e) => processFsEvent(e));
     //t.fileWatcher.onDidDelete((e) => t.processDir(e));
     
-    /** trigger on start */
-    //@todo
+    /** exec tarantula for all files in workspace */
+    //@todo - this should be onworkspaceload, or when a solidity files is opened or something like that
+    vscode.workspace.findFiles(`**/{${Object.values(TARGET_FILES).join(",")}}`, null, 100)
+        .then(uris => uris.map(uri => processFsEvent(uri)));
 
 }
 

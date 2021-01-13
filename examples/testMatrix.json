@@ -3,7 +3,7 @@
   "24": [
    {
     "title": "does not allow do set bridge for Sushi",
-    "file": "test/SushiMaker.test.js"
+    "file": "test/SushiMaker.test.wjs"
    },
    {
     "title": "does not allowasd to set bsridge for WETH",

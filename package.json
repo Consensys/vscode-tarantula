@@ -26,12 +26,12 @@
     "main": "./src/extension.js",
     "activationEvents": [
         "*",
-        "onCommand:vscode-tarantula.doit"
+        "onCommand:vscode-tarantula.processDir"
     ],
     "contributes": {
         "commands": [
             {
-                "command": "vscode-tarantula.doit",
+                "command": "vscode-tarantula.processDir",
                 "title": "do something",
                 "category": "Tarantula"
             }
