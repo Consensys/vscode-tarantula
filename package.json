@@ -1,0 +1,54 @@
+{
+    "name": "vscode-tarantula",
+    "displayName": "Tarantula",
+    "description": "Blabla what is this about :)",
+    "version": "0.0.1",
+    "keywords": [
+        "solidity",
+        "ethereum",
+        "tarantula"
+    ],
+    "publisher": "tintinweb",
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "bugs": {
+        "url": "https://github.com/ConsenSys/vscode-tarantula/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ConsenSys/vscode-tarantula"
+    },
+    "main": "./src/extension.js",
+    "activationEvents": [
+        "*",
+        "onCommand:vscode-tarantula.doit"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "vscode-tarantula.doit",
+                "title": "do something",
+                "category": "Tarantula"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "tarantula",
+            "properties": {
+                "tarantula.targetFiles": {
+                    "type": "string",
+                    "description": "asdfasdf",
+                    "default": "sfasdf"
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "tarantula-fl": "0.0.8"
+    }
+}

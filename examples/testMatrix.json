@@ -1,0 +1,4198 @@
+{
+ "contracts/BoringOwnable.sol": {
+  "24": [
+   {
+    "title": "does not allow do set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allowasd to set bsridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does nost allow dto set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correcst evesdnt on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should codnvert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert fUSDC - ETHssdf",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "25": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "31": [],
+  "33": [],
+  "36": [],
+  "37": [],
+  "40": [],
+  "47": [],
+  "50": [],
+  "53": [],
+  "54": [],
+  "55": [],
+  "61": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "62": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ]
+ },
+ "contracts/libraries/BoringERC20.sol": {
+  "8": [],
+  "9": [],
+  "13": [],
+  "14": [],
+  "18": [],
+  "19": [],
+  "23": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "24": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "28": [],
+  "29": []
+ },
+ "contracts/libraries/BoringMath.sol": {
+  "9": [],
+  "10": []
+ },
+ "contracts/MasterChef.sol": {
+  "95": [
+   {
+    "title": "should set correct state variables",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "96": [
+   {
+    "title": "should set correct state variables",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "97": [
+   {
+    "title": "should set correct state variables",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "98": [
+   {
+    "title": "should set correct state variables",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "99": [
+   {
+    "title": "should set correct state variables",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "103": [],
+  "109": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "110": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "112": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "113": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "114": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "124": [],
+  "125": [],
+  "127": [],
+  "128": [],
+  "133": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "138": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "139": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "140": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "141": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "142": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "143": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "144": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "145": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "150": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "151": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "153": [],
+  "155": [
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "163": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "164": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "165": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "166": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "167": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "168": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "169": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "170": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "172": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "177": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "178": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "179": [
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "185": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "186": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "187": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "189": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "190": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "191": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "192": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "194": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "195": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "196": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "197": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "198": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "199": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "204": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "205": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "206": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "207": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "208": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "209": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "210": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "213": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "214": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "215": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "217": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "218": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "223": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "224": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "225": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "226": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "227": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "228": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "229": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "231": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "232": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "233": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "235": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "236": [
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "241": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "242": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "243": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "244": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "245": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "246": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "247": [
+   {
+    "title": "should allow emergency withdraw",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "252": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "253": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "254": [],
+  "256": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "262": [
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   }
+  ],
+  "263": [
+   {
+    "title": "should allow dev and only dev to update dev",
+    "file": "test/MasterChef.test.js"
+   }
+  ]
+ },
+ "contracts/Migrator.sol": {
+  "22": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "23": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "24": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "25": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should allow first minting from public only after migrator is gone",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "29": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "30": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "31": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "32": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "33": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "34": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "35": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "36": [],
+  "38": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "39": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "40": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "41": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "42": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "43": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "44": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ],
+  "45": [
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   }
+  ]
+ },
+ "contracts/SushiBar.sol": {
+  "18": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "25": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "27": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "29": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "30": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "34": [
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "35": [
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "38": [
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "45": [
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "47": [
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "48": [
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ],
+  "49": [
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   }
+  ]
+ },
+ "contracts/SushiMaker.sol": {
+  "44": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "45": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "46": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "47": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "53": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "54": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "55": [
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "63": [
+   {
+    "title": "does not allow to set bridge for Sushi",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge for WETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "does not allow to set bridge to itself",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "66": [
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "67": [
+   {
+    "title": "emits correct event on bridge",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "75": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if caller is not EOA",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "76": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "86": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "94": [
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "95": [
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "96": [
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "105": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "106": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if pair does not exist",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "109": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "111": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "112": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "113": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "115": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "123": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "124": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "125": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "126": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "127": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "129": [
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "131": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "132": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "133": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "136": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "137": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "139": [
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "140": [
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "142": [],
+  "144": [
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "146": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "147": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "148": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "149": [
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "154": [
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "159": [
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "173": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "174": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if no path is available",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "178": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "179": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "180": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "181": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "182": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "183": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "186": [
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "187": [
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "188": [
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts MIC/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/USDC using more complex path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "reverts if it loops back",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ],
+  "197": [
+   {
+    "title": "should convert SUSHI - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert $TRDL - ETH",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert USDC - SUSHI",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should convert using standard ETH path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "converts DAI/MIC using two step path",
+    "file": "test/SushiMaker.test.js"
+   },
+   {
+    "title": "should allow to convert multiple",
+    "file": "test/SushiMaker.test.js"
+   }
+  ]
+ },
+ "contracts/SushiRoll.sol": {
+  "20": [],
+  "21": [],
+  "35": [],
+  "36": [],
+  "38": [],
+  "50": [],
+  "53": [],
+  "63": [],
+  "66": [],
+  "67": [],
+  "69": [],
+  "70": [],
+  "82": [],
+  "83": [],
+  "84": [],
+  "85": [],
+  "86": [],
+  "87": [],
+  "88": [],
+  "93": [],
+  "94": [],
+  "108": [],
+  "109": [],
+  "110": [],
+  "111": [],
+  "112": [],
+  "122": [],
+  "123": [],
+  "124": [],
+  "126": [],
+  "127": [],
+  "128": [],
+  "130": [],
+  "131": [],
+  "132": [],
+  "134": [],
+  "135": [],
+  "136": []
+ },
+ "contracts/SushiToken.sol": {
+  "13": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should only allow owner to mint token",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should supply token transfers properly",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should fail if you try to do bad transfers",
+    "file": "test/SushiToken.test.js"
+   }
+  ],
+  "14": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should only allow owner to mint token",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should supply token transfers properly",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should fail if you try to do bad transfers",
+    "file": "test/SushiToken.test.js"
+   }
+  ],
+  "62": [],
+  "70": [],
+  "92": [],
+  "101": [],
+  "110": [],
+  "118": [],
+  "119": [],
+  "120": [],
+  "121": [],
+  "122": [],
+  "135": [],
+  "136": [],
+  "151": [],
+  "153": [],
+  "154": [],
+  "155": [],
+  "159": [],
+  "160": [],
+  "164": [],
+  "165": [],
+  "168": [],
+  "169": [],
+  "170": [],
+  "171": [],
+  "172": [],
+  "173": [],
+  "174": [],
+  "176": [],
+  "178": [],
+  "181": [],
+  "187": [],
+  "188": [],
+  "189": [],
+  "191": [],
+  "193": [],
+  "197": [
+   {
+    "title": "should give out SUSHIs only after farming time",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should not distribute SUSHIs if no one deposit",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should distribute SUSHIs properly for each staker",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should give proper SUSHIs allocation to each pool",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should stop giving bonus SUSHIs after the bonus period ends",
+    "file": "test/MasterChef.test.js"
+   },
+   {
+    "title": "should do the migration successfully",
+    "file": "test/Migrator.test.js"
+   },
+   {
+    "title": "should not allow enter if not enough approve",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should not allow withraw more than what you have",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should work with more than one participant",
+    "file": "test/SushiBar.test.js"
+   },
+   {
+    "title": "should only allow owner to mint token",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should supply token transfers properly",
+    "file": "test/SushiToken.test.js"
+   },
+   {
+    "title": "should fail if you try to do bad transfers",
+    "file": "test/SushiToken.test.js"
+   }
+  ],
+  "198": [],
+  "200": [],
+  "201": [],
+  "202": [],
+  "203": [],
+  "206": [],
+  "208": [],
+  "209": [],
+  "210": [],
+  "211": [],
+  "224": [],
+  "226": [],
+  "227": [],
+  "229": [],
+  "230": [],
+  "233": [],
+  "237": [],
+  "238": [],
+  "242": [],
+  "243": [],
+  "244": []
+ },
+ "contracts/Timelock.sol": {
+  "42": [],
+  "43": [],
+  "45": [],
+  "46": [],
+  "47": [],
+  "54": [],
+  "55": [],
+  "56": [],
+  "57": [],
+  "59": [],
+  "63": [],
+  "64": [],
+  "65": [],
+  "67": [],
+  "72": [],
+  "73": [],
+  "75": [],
+  "76": [],
+  "78": [],
+  "80": [],
+  "84": [],
+  "85": [],
+  "87": [],
+  "88": [],
+  "90": [],
+  "91": [],
+  "95": [],
+  "97": [],
+  "98": [],
+  "100": [],
+  "104": [],
+  "106": [],
+  "107": [],
+  "108": [],
+  "109": [],
+  "111": [],
+  "113": [],
+  "115": [],
+  "116": [],
+  "118": [],
+  "122": [],
+  "123": [],
+  "125": [],
+  "127": [],
+  "132": []
+ }
+}
