@@ -14,7 +14,7 @@ const {CancellationTokenSource} = require('vscode');
 
 const settings = require('./settings');
 const {Tarantula, TARGET_FILES} = require('./features/tarantula');
-const {decoStyle, setDecorations} = require('./features/decorator');
+const {decoStyle, setDecorations, hueToDeco} = require('./features/decorator');
 
 const path = require("path");
 
@@ -35,7 +35,6 @@ function onActivate(context) {
         t.processFsEvent(e)
             .then(score => {
                 let humanReadable = JSON.stringify(score, null, ' ');
-                console.log(humanReadable);
 
                 // show notification
                 vscode.window.showInformationMessage("tarantula updated :)");
@@ -67,16 +66,19 @@ function onActivate(context) {
         //@todo - change format of score object to reduce workload here. {path: score}
         t.score.filter(e => e.fileName && e.fileName.includes(basename)).forEach(e => {
             //all matching filenames
-            let linedeco = e.lines.filter(l => l.suspiciousness >= 0).map(lobj => {
+            let linedeco = e.lines.filter(l => l.hue >= 0 && l.hue < 1).map(lobj => {
                 //create linedecoration objects
+                let style = hueToDeco((1-lobj.hue));
+                if(!style){
+                    return; // nothing to decorate
+                }
                 return {
                     range: new vscode.Range(
                         new vscode.Position(lobj.lineNumber -1, 0),
                         new vscode.Position(lobj.lineNumber -1, 0)
                     ),
-                    decoStyle: decoStyle.redline
+                    decoStyle: style
                 };
-                
             });
 
             console.log(linedeco);

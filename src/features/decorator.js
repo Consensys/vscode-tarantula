@@ -47,21 +47,76 @@ function RGBtoHex(r, g, b) {
     return `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
 }
 
+const lineDecoSettings = {
+    prefix: "hue",
+    resolution: 10,
+    alphaStart: 0,
+    alphaEnd: 60
+}
+
 const decoStyle = {
-    redline: vscode.window.createTextEditorDecorationType({
-        isWholeLine: true,
-        overviewRulerColor: 'blue',
-        overviewRulerLane: vscode.OverviewRulerLane.Right,
-        light: {
-            // this color will be used in light color themes
-            backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + "50"
-        },
-        dark: {
-            // this color will be used in dark color themes
-            backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + "50"
-        },
-    })
+    ... {
+        redline: vscode.window.createTextEditorDecorationType({
+            isWholeLine: true,
+            overviewRulerColor: 'blue',
+            overviewRulerLane: vscode.OverviewRulerLane.Right,
+            light: {
+                // this color will be used in light color themes
+                backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + "50"
+            },
+            dark: {
+                // this color will be used in dark color themes
+                backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + "50"
+            },
+        }),
+    },
+    ...createDecoStyle(lineDecoSettings.prefix, lineDecoSettings.resolution, lineDecoSettings.alphaStart, lineDecoSettings.alphaEnd)
 };
+
+function hueToDeco(target){
+    let step = Math.abs((lineDecoSettings.alphaStart-lineDecoSettings.alphaEnd)/lineDecoSettings.resolution);
+    let steps = [];
+    for(let i=lineDecoSettings.alphaStart; i<=lineDecoSettings.alphaEnd; i+=step){
+        steps.push(i);
+    }
+
+    target =  lineDecoSettings.alphaStart + 10 * target * step;
+
+    /*
+    var closest = steps.reduce(function(prev, curr) {
+        return (Math.abs(curr - target) < Math.abs(prev - target) ? curr : prev);
+    });
+    */
+    var lesser = steps.filter(s => s >= target);
+    var closest = Math.min.apply(null, lesser);
+    
+    return decoStyle[`${lineDecoSettings.prefix}_${closest}`];
+}
+
+
+function createDecoStyle(prefix, num, start, end){
+    let result = {};
+
+    let step = Math.abs((end-start)/num);
+
+    for(let i=start; i<=end; i+=step){
+        result[`${prefix}_${i}`] =  vscode.window.createTextEditorDecorationType({
+                isWholeLine: true,
+                overviewRulerColor: 'blue',
+                overviewRulerLane: vscode.OverviewRulerLane.Right,
+                light: {
+                    // this color will be used in light color themes
+                    backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + `${i}`
+                },
+                dark: {
+                    // this color will be used in dark color themes
+                    backgroundColor: RGBtoHex(...HSLtoRGB(((5 + 5) * 19) % 255 / 255, 0.85, 0.75)) + `${i}`
+                },
+            });
+    }
+    return result;
+}
+
 
 /**
  * 
@@ -95,5 +150,6 @@ async function setDecorations(editor, decorations) {
 
 module.exports = {
     decoStyle,
-    setDecorations
+    setDecorations,
+    hueToDeco
 };
