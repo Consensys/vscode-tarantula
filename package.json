@@ -8,7 +8,7 @@
         "ethereum",
         "tarantula"
     ],
-    "publisher": "jhonig",
+    "publisher": "tintinweb",
     "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.52.0"

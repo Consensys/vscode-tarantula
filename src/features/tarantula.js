@@ -26,7 +26,7 @@ class Tarantula {
             testResults: null,
             coverage: null
         };
-        this.score = null;
+        this.score = [];
         this.fileWatcher = null; 
     }
 
@@ -43,6 +43,7 @@ class Tarantula {
             let mochaOutput = loadJSON(path.join(basedir, TARGET_FILES.mochaOutput));
             let testMatrix = loadJSON(path.join(basedir, TARGET_FILES.testMatrix));
             let score = this.getScoreForTestData(mochaOutput, testMatrix);
+            this.score = score;
             return resolve(score);
         });
     }

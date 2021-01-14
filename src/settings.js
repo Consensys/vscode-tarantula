@@ -13,7 +13,7 @@ function extensionConfig() {
 }
 
 function extension() {
-    return vscode.extensions.getExtension('jhonig.vscode-tarantula');
+    return vscode.extensions.getExtension('tintinweb.vscode-tarantula');
 }
 
 module.exports = {
