@@ -12,6 +12,7 @@ This add-on uses [JoranHonig/tarantula](https://github.com/joranhonig/tarantula)
 This plugin looks for the test & test coverage output provided by `solidity-coverage`. To get this output, you need to run solidity-coverage with the `--matrix` option. This will make it output two files:
 
 `testMatrix.json` - Contains information on which lines are covered by which tests.
+
 `mochaOutput.json` - The plain test results as provided by the mocha testing framework
 
 This plugin will automatically see when those files are created or changed, and update your code view. 
