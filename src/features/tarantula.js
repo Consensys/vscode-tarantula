@@ -18,6 +18,18 @@ function loadJSON(path){
     return JSON.parse(fs.readFileSync(path).toString('utf-8'));
 }
 
+class ScoreData {
+
+    getScoreForTestData(mochaOutput, testMatrix){
+        let data = {
+            testResults: fl.fromMocha(mochaOutput),
+            coverage: fl.fromSolCover(testMatrix)
+        };
+        this.score =  fl.tarantulaScore(data);
+        this.ranks = fl.tarantulaRanking(this.score);
+    }
+}
+
 class Tarantula {
 
     constructor(settings){
@@ -26,35 +38,27 @@ class Tarantula {
             testResults: null,
             coverage: null
         };
-        this.score = [];
+        this.scoreData = new ScoreData();
         this.fileWatcher = null; 
-    }
-
-    getScoreForTestData(mochaOutput, testMatrix){
-        let data = {
-            testResults: fl.fromMocha(mochaOutput),
-            coverage: fl.fromSolCover(testMatrix)
-        };
-        return fl.tarantulaScore(data);
+        this.directory = null;
     }
 
     processDir(basedir){
         return new Promise((resolve, reject) => {
             let mochaOutput = loadJSON(path.join(basedir, TARGET_FILES.mochaOutput));
             let testMatrix = loadJSON(path.join(basedir, TARGET_FILES.testMatrix));
-            let score = this.getScoreForTestData(mochaOutput, testMatrix);
-            this.score = score;
-            return resolve(score);
+            this.scoreData.getScoreForTestData(mochaOutput, testMatrix);
+            this.scoreData.directory = basedir;
+            return resolve(this.scoreData);
         });
     }
     
     processFsEvent(uri){
-        console.log(uri);
-        console.log(path.dirname(uri.fsPath));
         return this.processDir(path.dirname(uri.fsPath));
     }
 
 }
+
 
 module.exports = {
     Tarantula,

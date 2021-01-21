@@ -246,43 +246,45 @@
    "err": {}
   }
  ],
- "failures": [],
+ "failures": [
+    {
+        "title": "should set correct state variables",
+        "fullTitle": "MasterChef should set correct state variables",
+        "file": "test/MasterChef.test.js",
+        "currentRetry": 0,
+        "err": {}
+       },
+       {
+        "title": "should allow dev and only dev to update dev",
+        "fullTitle": "MasterChef should allow dev and only dev to update dev",
+        "file": "test/MasterChef.test.js",
+        "currentRetry": 0,
+        "err": {}
+       },
+       {
+        "title": "should allow emergency withdraw",
+        "fullTitle": "MasterChef With ERC/LP token added to the field should allow emergency withdraw",
+        "file": "test/MasterChef.test.js",
+        "currentRetry": 0,
+        "err": {}
+       },
+       {
+        "title": "should give out SUSHIs only after farming time",
+        "fullTitle": "MasterChef With ERC/LP token added to the field should give out SUSHIs only after farming time",
+        "file": "test/MasterChef.test.js",
+        "currentRetry": 0,
+        "err": {}
+       },
+       {
+        "title": "should not distribute SUSHIs if no one deposit",
+        "fullTitle": "MasterChef With ERC/LP token added to the field should not distribute SUSHIs if no one deposit",
+        "file": "test/MasterChef.test.js",
+        "currentRetry": 0,
+        "err": {}
+       }
+ ],
  "passes": [
-  {
-   "title": "should set correct state variables",
-   "fullTitle": "MasterChef should set correct state variables",
-   "file": "test/MasterChef.test.js",
-   "currentRetry": 0,
-   "err": {}
-  },
-  {
-   "title": "should allow dev and only dev to update dev",
-   "fullTitle": "MasterChef should allow dev and only dev to update dev",
-   "file": "test/MasterChef.test.js",
-   "currentRetry": 0,
-   "err": {}
-  },
-  {
-   "title": "should allow emergency withdraw",
-   "fullTitle": "MasterChef With ERC/LP token added to the field should allow emergency withdraw",
-   "file": "test/MasterChef.test.js",
-   "currentRetry": 0,
-   "err": {}
-  },
-  {
-   "title": "should give out SUSHIs only after farming time",
-   "fullTitle": "MasterChef With ERC/LP token added to the field should give out SUSHIs only after farming time",
-   "file": "test/MasterChef.test.js",
-   "currentRetry": 0,
-   "err": {}
-  },
-  {
-   "title": "should not distribute SUSHIs if no one deposit",
-   "fullTitle": "MasterChef With ERC/LP token added to the field should not distribute SUSHIs if no one deposit",
-   "file": "test/MasterChef.test.js",
-   "currentRetry": 0,
-   "err": {}
-  },
+  
   {
    "title": "should distribute SUSHIs properly for each staker",
    "fullTitle": "MasterChef With ERC/LP token added to the field should distribute SUSHIs properly for each staker",

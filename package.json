@@ -2,7 +2,7 @@
     "name": "vscode-tarantula",
     "displayName": "Tarantula",
     "description": "Blabla what is this about :)",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "keywords": [
         "solidity",
         "ethereum",
@@ -26,6 +26,7 @@
     "main": "./src/extension.js",
     "activationEvents": [
         "*",
+        "onView:inlineBookmarksExplorer",
         "onCommand:vscode-tarantula.processDir"
     ],
     "contributes": {
@@ -36,6 +37,14 @@
                 "category": "Tarantula"
             }
         ],
+        "views": {
+            "explorer": [
+                {
+                    "id": "vscode-tarantula-highScore",
+                    "name": "Tarantula Highscore"
+                }
+            ]
+        },
         "configuration": {
             "type": "object",
             "title": "tarantula",
@@ -49,6 +58,6 @@
         }
     },
     "dependencies": {
-        "tarantula-fl": "0.0.8"
+        "tarantula-fl": "^1.0.0"
     }
 }

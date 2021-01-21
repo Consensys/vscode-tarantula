@@ -15,6 +15,7 @@ const {CancellationTokenSource} = require('vscode');
 const settings = require('./settings');
 const {Tarantula, TARGET_FILES} = require('./features/tarantula');
 const {decoStyle, setDecorations, hueToDeco} = require('./features/decorator');
+const {HighScoreView} = require('./features/views');
 
 const path = require("path");
 
@@ -23,29 +24,50 @@ const currentCancellationTokens = {
     onDidSave: new CancellationTokenSource()
 };
 
+function outputChannel(text, noClear){
+    if (!vscode.window.outputChannel) {
+        vscode.window.outputChannel = vscode.window.createOutputChannel('Tarantula Fault Localization');
+    }
+    if (!vscode.window.outputChannel) return;
+    if (!noClear) vscode.window.outputChannel.clear();
+    vscode.window.outputChannel.appendLine(text);
+    vscode.window.outputChannel.show();
+}
+
+function editorJumptoRange(editor, range) {
+    let revealType = vscode.TextEditorRevealType.InCenter;
+    let selection = new vscode.Selection(range.start.line, range.start.character, range.end.line, range.end.character);
+    if (range.start.line === editor.selection.active.line) {
+        revealType = vscode.TextEditorRevealType.InCenterIfOutsideViewport;
+    }
+
+    editor.selection = selection;
+    editor.revealRange(selection, revealType);
+}
+
 /** event funcs */
 function onActivate(context) {
 
     const t = new Tarantula();
+
+    /** register views */
+    const highScoreView = new HighScoreView(t);
+
+    /** common functions */
+
     /**
      * 
      * @param {vscode.URI / event} e 
      */
     function processFsEvent(e){
         t.processFsEvent(e)
-            .then(score => {
-                let humanReadable = JSON.stringify(score, null, ' ');
-
+            .then(scoreData => {
+                let humanReadable = JSON.stringify(scoreData.score, null, ' ');
                 // show notification
-                vscode.window.showInformationMessage("tarantula updated :)");
+                //vscode.window.showInformationMessage("tarantula updated :)");
                 // show output channel haxx
-                if (!vscode.window.outputChannel) {
-                    vscode.window.outputChannel = vscode.window.createOutputChannel('tarantula');
-                }
-                if (!vscode.window.outputChannel) return;
-                vscode.window.outputChannel.clear();
-                vscode.window.outputChannel.appendLine(humanReadable);
-                vscode.window.outputChannel.show();
+                outputChannel(humanReadable);
+                highScoreView.refresh(); //refresh from tarantula object
             })
             .catch(e => {
                 console.error(e);
@@ -54,17 +76,15 @@ function onActivate(context) {
     }
 
     function decorate(editor, document, cancellationToken){
-        //@todo - add cancellation checks
         console.log(document);
         let basename = path.basename(document.uri.fsPath); //@todo - basename matching, change this to match relative paths (rel to file?)
-        console.log(basename)
         //find score for file
         if(cancellationToken.isCancellationRequested){
             //abort - new analysis running already
             return;
         }
         //@todo - change format of score object to reduce workload here. {path: score}
-        t.score.filter(e => e.fileName && e.fileName.includes(basename)).forEach(e => {
+        t.scoreData.score.filter(e => e.fileName && e.fileName.includes(basename)).forEach(e => {
             //all matching filenames
             let linedeco = e.lines.filter(l => l.hue >= 0 && l.hue < 1).map(lobj => {
                 //create linedecoration objects
@@ -99,7 +119,6 @@ function onActivate(context) {
         }
         
         if(document.languageId!="solidity"){
-            console.log("ondidchange: wrong langid");
             return;
         }
         
@@ -114,11 +133,24 @@ function onActivate(context) {
         }
     }
 
+
     /* commands */
     context.subscriptions.push(
         // in case one wants to trigger this manually
         vscode.commands.registerCommand("vscode-tarantula.processDir", async (filepathOrDir) => {
             processFsEvent(filepathOrDir || ".");
+        })
+    );
+
+    context.subscriptions.push(
+        vscode.commands.registerCommand("vscode-tarantula.jumpToRange", (documentUri, range) => {
+            vscode.workspace.openTextDocument(documentUri).then(doc => {
+                vscode.window.showTextDocument(doc).then(editor => {
+                    if(range) {
+                        editorJumptoRange(editor, range);
+                    }
+                });
+            });
         })
     );
 
