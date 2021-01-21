@@ -1,7 +1,7 @@
 {
     "name": "vscode-tarantula",
     "displayName": "Tarantula",
-    "description": "Blabla what is this about :)",
+    "description": "Find whats causing a test suite to fail with tarantula fault localisation.",
     "version": "0.1.0",
     "keywords": [
         "solidity",
@@ -33,7 +33,7 @@
         "commands": [
             {
                 "command": "vscode-tarantula.processDir",
-                "title": "do something",
+                "title": "Process coverage results to compute tarantula scores",
                 "category": "Tarantula"
             }
         ],
