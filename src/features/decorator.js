@@ -101,6 +101,7 @@ function createDecoStyle(prefix, num, start, end){
 
     for(let i=start; i<=end; i+=step){
         result[`${prefix}_${i}`] =  vscode.window.createTextEditorDecorationType({
+                
                 isWholeLine: true,
                 overviewRulerColor: 'blue',
                 overviewRulerLane: vscode.OverviewRulerLane.Right,
@@ -140,7 +141,6 @@ async function setDecorations(editor, decorations) {
         deco_map[deco.decoStyle.key].push(deco.range);
     });
 
-    console.log(deco_map);
     for (let styleKey in deco_map){
         editor.setDecorations(seenDecoStyles[styleKey], deco_map[styleKey]);
     }

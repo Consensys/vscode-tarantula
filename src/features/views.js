@@ -121,7 +121,6 @@ class HighScoreViewDataProvider extends BaseDataProvider {
     /** events */
 
     refresh() {
-        console.warn("-<-<-<-<-<-< REFRESH")
         return new Promise((resolve, reject) => {
             if(!this.treeView.tarantula.scoreData || !this.treeView.tarantula.scoreData.ranks){
                 return reject();

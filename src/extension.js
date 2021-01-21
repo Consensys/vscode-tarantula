@@ -7,7 +7,6 @@
  * */
 
 
-
 /** imports */
 const vscode = require("vscode");
 const {CancellationTokenSource} = require('vscode');
@@ -45,6 +44,7 @@ function editorJumptoRange(editor, range) {
     editor.revealRange(selection, revealType);
 }
 
+
 /** event funcs */
 function onActivate(context) {
 
@@ -67,6 +67,11 @@ function onActivate(context) {
                 //vscode.window.showInformationMessage("tarantula updated :)");
                 // show output channel haxx
                 outputChannel(humanReadable);
+
+                currentCancellationTokens.onDidChange.dispose();
+                currentCancellationTokens.onDidChange = new CancellationTokenSource();
+                vscode.window.visibleTextEditors.map(te => decorate(te, te.document, currentCancellationTokens.onDidChange));
+                
                 highScoreView.refresh(); //refresh from tarantula object
             })
             .catch(e => {
@@ -76,7 +81,7 @@ function onActivate(context) {
     }
 
     function decorate(editor, document, cancellationToken){
-        console.log(document);
+
         let basename = path.basename(document.uri.fsPath); //@todo - basename matching, change this to match relative paths (rel to file?)
         //find score for file
         if(cancellationToken.isCancellationRequested){
@@ -101,7 +106,7 @@ function onActivate(context) {
                 };
             });
 
-            console.log(linedeco);
+
             if(cancellationToken.isCancellationRequested){
                 //abort - new analysis running already
                 return;
