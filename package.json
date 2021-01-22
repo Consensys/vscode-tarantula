@@ -4,9 +4,14 @@
     "description": "Find whats causing a test suite to fail with tarantula fault localisation.",
     "version": "0.1.0",
     "keywords": [
+        "test",
+        "testing",
+        "unittest",
+        "tarantula",
+        "fault localization",
+        "fault localisation",
         "solidity",
-        "ethereum",
-        "tarantula"
+        "ethereum"
     ],
     "publisher": "tintinweb",
     "icon": "images/logo.png",
@@ -49,11 +54,6 @@
             "type": "object",
             "title": "tarantula",
             "properties": {
-                "tarantula.targetFiles": {
-                    "type": "string",
-                    "description": "asdfasdf",
-                    "default": "sfasdf"
-                }
             }
         }
     },
