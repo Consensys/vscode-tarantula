@@ -2,7 +2,7 @@
     "name": "vscode-tarantula",
     "displayName": "Tarantula",
     "description": "Find what's causing a test suite to fail with tarantula fault localisation.",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "keywords": [
         "test",
         "testing",
