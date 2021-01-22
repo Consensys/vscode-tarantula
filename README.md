@@ -8,6 +8,13 @@
 
 This add-on uses [JoranHonig/tarantula](https://github.com/joranhonig/tarantula) to highlight the areas code that are most likely causing a failing test suite.
 
+<img width="1195" alt="Screenshot 2021-01-22 at 11 40 06" src="https://user-images.githubusercontent.com/2865694/105480933-a8211900-5ca6-11eb-977f-7a38e147aea5.png">
+
+* Text Editor code line highlighting
+* Fault Localization Highscore view
+* Tarantula raw output window
+
+
 ## How To
 This plugin looks for the test & test coverage output provided by `solidity-coverage`. To get this output, you need to run solidity-coverage with the `--matrix` option. This will make it output two files:
 
