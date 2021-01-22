@@ -1,8 +1,8 @@
 {
     "name": "vscode-tarantula",
     "displayName": "Tarantula",
-    "description": "Find whats causing a test suite to fail with tarantula fault localisation.",
-    "version": "0.1.0",
+    "description": "Find what's causing a test suite to fail with tarantula fault localisation.",
+    "version": "0.0.3",
     "keywords": [
         "test",
         "testing",
@@ -10,9 +10,12 @@
         "tarantula",
         "fault localization",
         "fault localisation",
+        "solcover",
+        "mocha",
         "solidity",
         "ethereum"
     ],
+    "preview": true,
     "publisher": "tintinweb",
     "icon": "images/logo.png",
     "engines": {
@@ -31,7 +34,7 @@
     "main": "./src/extension.js",
     "activationEvents": [
         "*",
-        "onView:inlineBookmarksExplorer",
+        "onView:vscode-tarantula-highScore",
         "onCommand:vscode-tarantula.processDir"
     ],
     "contributes": {
