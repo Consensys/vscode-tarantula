@@ -4,7 +4,7 @@
 </sup><br/><br/>
 
 
-# vscode-tarantula
+# 👾 vscode-tarantula
 
 This add-on uses [JoranHonig/tarantula](https://github.com/joranhonig/tarantula) to highlight the areas code that are most likely causing a failing test suite.
 
