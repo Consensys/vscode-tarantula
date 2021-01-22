@@ -6,7 +6,7 @@
 
 # 👾 vscode-tarantula
 
-This add-on uses [JoranHonig/tarantula](https://github.com/joranhonig/tarantula) to highlight the areas code that are most likely causing a failing test suite.
+This add-on uses [JoranHonig/tarantula](https://github.com/joranhonig/tarantula) to highlight the areas code that are most likely causing a failing test suite by utilizing the [tarantula fault localisation algorithm](http://spideruci.org/papers/jones05.pdf).
 
 <img width="1195" alt="Screenshot 2021-01-22 at 11 40 06" src="https://user-images.githubusercontent.com/2865694/105480933-a8211900-5ca6-11eb-977f-7a38e147aea5.png">
 
